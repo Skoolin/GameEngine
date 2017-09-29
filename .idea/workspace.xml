@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58eaf07a-8b6e-4850-a511-7ffb02a59334" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/GameEngine-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aicomponents/Graph2d.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animatedModels/AnimatedModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animatedModels/Joint.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animation/Animation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animation/Animator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animation/JointTransform.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animation/KeyFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/animation/Quaternion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/audio/AudioMaster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/audio/AudioPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/audio/Source.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/AnimatedModelData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/AnimationData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/AnimationLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/ColladaLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/GeometryLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/JointData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/JointTransformData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/JointsData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/JointsLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/KeyFrameData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/MeshData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/SkinLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/SkinningData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/Vertex.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/VertexSkinData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/XmlNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/collada/XmlParser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Camera.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/CameraPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Entity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/EntityPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Light.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/LightPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Movable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Player.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/PlayerCamera.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/PlayerCameraPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Point.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/PointPreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Preset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/Character.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/FontType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/GUIText.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/Line.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/MetaFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/TextMeshCreator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/TextMeshData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontMeshCreator/Word.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontRendering/FontRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontRendering/FontShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/fontRendering/TextMaster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/gameObjects/GameObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/gameObjects/GameStarter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/guis/GuiRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/guis/GuiShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/guis/GuiTexture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/loaders/AnimatedModelLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/loaders/AnimationLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/loaders/Loader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/loaders/OBJLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/Model.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/RawModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/TexturedModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/normalMappingObjConverter/ModelDataNM.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/normalMappingObjConverter/NormalMappedObjLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/normalMappingObjConverter/VertexNM.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/normalMappingRenderer/NormalMappingRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/normalMappingRenderer/NormalMappingShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/Particle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleMaster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticlePreset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleTexture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/particles/StaticPShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/AnimatedModelRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/DisplayManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/Engine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/Game.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/MasterRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/StaticRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/renderEngine/TerrainRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/shaders/AnimatedModelShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/shaders/ShaderProgram.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/shaders/StaticShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/shaders/TerrainShader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/statics/Const.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/terrains/Terrain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/textures/ModelTexture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/textures/TerrainTexture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/textures/TerrainTexturePack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/toolbox/InsertionSort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/toolbox/Maths.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/toolbox/MousePicker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/FontType.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/FontType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/GUIText.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/GUIText.java" />
@@ -142,11 +42,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="128">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -156,17 +56,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/shaders/ShaderProgram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
-              <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+              <caret line="115" column="28" lean-forward="false" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-440">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -191,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/jars/lwjgl.jar!/org/lwjgl/LWJGLException.class" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/shaders/ShaderProgram.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -204,9 +104,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="y" value="1080" />
-    <option name="width" value="1602" />
-    <option name="height" value="876" />
+    <option name="width" value="1922" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,6 +132,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -653,7 +566,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506621890811</updated>
       <workItem from="1506621892197" duration="112000" />
-      <workItem from="1506716973109" duration="4977000" />
+      <workItem from="1506716973109" duration="5388000" />
     </task>
     <task id="LOCAL-00001" summary="added as Maven">
       <created>1506717377908</created>
@@ -669,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506721270650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added as Maven">
+      <created>1506721954910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506721954910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5089000" />
+    <option name="totallyTimeSpent" value="5500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,24 +605,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="1080" width="1602" height="876" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.497426" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2591051" sideWeight="0.49519745" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.497426" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.51544404" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882413" sideWeight="0.5202775" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.484556" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882413" sideWeight="0.47972253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.49227798" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.4903949" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3043758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -830,18 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shaders/ShaderProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
-          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+          <caret line="115" column="28" lean-forward="false" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -849,7 +761,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-440">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
