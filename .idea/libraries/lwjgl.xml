@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="jars">
+  <library name="lwjgl">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/jars/lwjgl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jars/lwjgl_util.jar!/" />

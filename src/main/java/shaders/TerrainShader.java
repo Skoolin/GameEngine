@@ -6,6 +6,7 @@ import java.util.List;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
 
+import statics.Const;
 import toolbox.Maths;
 import entities.Camera;
 import entities.Light;
@@ -14,10 +15,8 @@ public class TerrainShader extends ShaderProgram {
      
 	private static final int MAX_LIGHTS = 10;
 	
-    private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/terrainVertexShader.glsl";
-    private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/terrainFragmentShader.glsl";
+    private static final String VERTEX_FILE = Const.SHADER_SOURCES + "/terrainVertexShader.glsl";
+    private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "/terrainFragmentShader.glsl";
     
      
     protected int location_transformationMatrix;

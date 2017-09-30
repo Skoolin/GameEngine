@@ -10,16 +10,15 @@ import org.lwjgl.util.vector.Vector3f;
 import entities.Camera;
 import entities.Light;
 import shaders.ShaderProgram;
+import statics.Const;
 import toolbox.Maths;
 
 public class StaticPShader extends ShaderProgram {
 
 	protected static final int MAX_LIGHTS = 4;
 
-	private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/pVertexShader.glsl";
-	private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile()
-			.getAbsolutePath() + "/GameEngine/src/shaders/pFragmentShader.glsl";
+	private static final String VERTEX_FILE = Const.SHADER_SOURCES + "pVertexShader.glsl";
+	private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "pFragmentShader.glsl";
 
 	protected int location_transformationMatrix;
 	protected int location_projectionMatrix;

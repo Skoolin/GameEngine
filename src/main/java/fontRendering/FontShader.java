@@ -6,13 +6,12 @@ import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
 
 import shaders.ShaderProgram;
+import statics.Const;
 
 public class FontShader extends ShaderProgram{
 
-	private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/fontRendering/fontVertex.glsl";
-	private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/fontRendering/fontFragment.glsl";
+	private static final String VERTEX_FILE = Const.SHADER_SOURCES + "/fontVertex.glsl";
+	private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "/fontFragment.glsl";
 	
 	private int location_colour;
 	private int location_translation;

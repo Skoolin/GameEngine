@@ -8,6 +8,8 @@ public class Const {
 	public static final int SCREEN_HEIGHT = 660;
 	public static final int FPS_CAP = 80;
 
+	public static final String SHADER_SOURCES = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/resources/";
+
 	public static final String TITLE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
 			+ "/GameEngine/magGame";
 	public static final String RESSOURCES_FOLDER = new File(System.getProperty("user.dir")).getParentFile()

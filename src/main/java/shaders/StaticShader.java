@@ -7,6 +7,7 @@ import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
 
+import statics.Const;
 import toolbox.Maths;
 import entities.Camera;
 import entities.Light;
@@ -15,10 +16,8 @@ public class StaticShader extends ShaderProgram {
 
 	protected static final int MAX_LIGHTS = 4;
 
-	private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/vertexShader.glsl";
-	private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile()
-			.getAbsolutePath() + "/GameEngine/src/shaders/fragmentShader.glsl";
+	private static final String VERTEX_FILE = Const.SHADER_SOURCES + "/vertexShader.glsl";
+	private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "/fragmentShader.glsl";
 
 	protected int location_transformationMatrix;
 	protected int location_projectionMatrix;

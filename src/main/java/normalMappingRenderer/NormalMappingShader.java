@@ -16,10 +16,8 @@ public class NormalMappingShader extends ShaderProgram{
 	
 	private static final int MAX_LIGHTS = Const.MAX_LIGHTS;
 	
-	private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/normalMappingRenderer/normalMapVShader.glsl";
-	private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/normalMappingRenderer/normalMapFShader.glsl";
+	private static final String VERTEX_FILE = Const.SHADER_SOURCES + "/normalMapVShader.glsl";
+	private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "/normalMapFShader.glsl";
 	
 	private int location_transformationMatrix;
 	private int location_projectionMatrix;

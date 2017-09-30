@@ -5,13 +5,12 @@ import java.io.File;
 import org.lwjgl.util.vector.Matrix4f;
 
 import shaders.ShaderProgram;
+import statics.Const;
 
 public class ParticleShader extends ShaderProgram {
 
-	private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/particles/particleVShader.glsl";
-	private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/particles/particleFShader.glsl";
+	private static final String VERTEX_FILE = Const.SHADER_SOURCES + "particleVShader.glsl";
+	private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "particleFShader.glsl";
 
 	private int location_numberOfRows;
 	private int location_projectionMatrix;

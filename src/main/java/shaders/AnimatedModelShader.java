@@ -8,10 +8,8 @@ import statics.Const;
 
 public class AnimatedModelShader extends StaticShader {
      
-    private static final String VERTEX_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/animatedVertexShader.glsl";
-    private static final String FRAGMENT_FILE = new File(System.getProperty("user.dir")).getParentFile().getAbsolutePath()
-			+ "/GameEngine/src/shaders/fragmentShader.glsl";
+    private static final String VERTEX_FILE = Const.SHADER_SOURCES + "/animatedVertexShader.glsl";
+    private static final String FRAGMENT_FILE = Const.SHADER_SOURCES + "/fragmentShader.glsl";
     
     protected int[] location_jointTransforms;
     
