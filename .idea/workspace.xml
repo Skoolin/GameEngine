@@ -2,54 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58eaf07a-8b6e-4850-a511-7ffb02a59334" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jars/lwjgl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jars/lwjgl_util.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/GameEngine-v0.1.0-pre.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/gameLogic/Tool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/toolMain/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/original-GameEngine-v0.1.0-pre.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/natives.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jutils_jutils_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_2_8_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_8_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_8_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_8_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_util_2_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_newdawn_slick_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/jars.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/fontRendering/fontFragment.glsl" afterPath="$PROJECT_DIR$/src/main/resources/fontFragment.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/fontRendering/fontVertex.glsl" afterPath="$PROJECT_DIR$/src/main/resources/fontVertex.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/guis/guiFragmentShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/guiFragmentShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/guis/guiVertexShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/guiVertexShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/normalMappingRenderer/normalMapFShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/normalMapFShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/normalMappingRenderer/normalMapVShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/normalMapVShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/particles/particleFShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/particleFShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/particles/particleVShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/particleVShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/animatedVertexShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/animatedVertexShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/fragmentShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/fragmentShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/pFragmentShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/pFragmentShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/pVertexShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/pVertexShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/terrainFragmentShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/terrainFragmentShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/terrainVertexShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/terrainVertexShader.glsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/shaders/vertexShader.glsl" afterPath="$PROJECT_DIR$/src/main/resources/vertexShader.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jars/slick-util.jar" afterPath="$PROJECT_DIR$/lib/jars/slick-util.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fontRendering/FontShader.class" afterPath="$PROJECT_DIR$/target/classes/fontRendering/FontShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/guis/GuiShader.class" afterPath="$PROJECT_DIR$/target/classes/guis/GuiShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/normalMappingRenderer/NormalMappingShader.class" afterPath="$PROJECT_DIR$/target/classes/normalMappingRenderer/NormalMappingShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/particles/ParticleShader.class" afterPath="$PROJECT_DIR$/target/classes/particles/ParticleShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/particles/StaticPShader.class" afterPath="$PROJECT_DIR$/target/classes/particles/StaticPShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shaders/AnimatedModelShader.class" afterPath="$PROJECT_DIR$/target/classes/shaders/AnimatedModelShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shaders/StaticShader.class" afterPath="$PROJECT_DIR$/target/classes/shaders/StaticShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shaders/TerrainShader.class" afterPath="$PROJECT_DIR$/target/classes/shaders/TerrainShader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/statics/Const.class" afterPath="$PROJECT_DIR$/target/classes/statics/Const.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine.iml" afterPath="$PROJECT_DIR$/GameEngine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Character.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/FontType.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/FontType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/GUIText.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/GUIText.java" />
@@ -60,7 +12,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Word.java" afterPath="$PROJECT_DIR$/src/main/java/fontMeshCreator/Word.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontRendering/FontRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/fontRendering/FontRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fontRendering/FontShader.java" afterPath="$PROJECT_DIR$/src/main/java/fontRendering/FontShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/guis/GuiShader.java" afterPath="$PROJECT_DIR$/src/main/java/guis/GuiShader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/ModelDataNM.java" afterPath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/ModelDataNM.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/NormalMappedObjLoader.java" afterPath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/NormalMappedObjLoader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/VertexNM.java" afterPath="$PROJECT_DIR$/src/main/java/normalMappingObjConverter/VertexNM.java" />
@@ -70,12 +21,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/particles/ParticleRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/particles/ParticleRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/particles/ParticleShader.java" afterPath="$PROJECT_DIR$/src/main/java/particles/ParticleShader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/particles/ParticleSystem.java" afterPath="$PROJECT_DIR$/src/main/java/particles/ParticleSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/particles/StaticPShader.java" afterPath="$PROJECT_DIR$/src/main/java/particles/StaticPShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shaders/AnimatedModelShader.java" afterPath="$PROJECT_DIR$/src/main/java/shaders/AnimatedModelShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shaders/StaticShader.java" afterPath="$PROJECT_DIR$/src/main/java/shaders/StaticShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shaders/TerrainShader.java" afterPath="$PROJECT_DIR$/src/main/java/shaders/TerrainShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statics/Const.java" afterPath="$PROJECT_DIR$/src/main/java/statics/Const.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -786,7 +731,7 @@
       <workItem from="1506621892197" duration="112000" />
       <workItem from="1506716973109" duration="7818000" />
       <workItem from="1506725776424" duration="2429000" />
-      <workItem from="1506758751550" duration="3159000" />
+      <workItem from="1506758751550" duration="3269000" />
     </task>
     <task id="LOCAL-00001" summary="added as Maven">
       <created>1506717377908</created>
@@ -837,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506723037175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="removed maven :(">
+      <created>1506761931051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1506761931051</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13518000" />
+    <option name="totallyTimeSpent" value="13628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,7 +904,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="added as Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="added as Maven" />
+    <MESSAGE value="removed maven :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed maven :(" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
